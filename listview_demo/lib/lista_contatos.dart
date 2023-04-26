@@ -13,7 +13,7 @@ class _ListaContatosState extends State<ListaContatos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Contatos"),
+        title: Text("Contatos Favoritos"),
       ),
       body: ListView.builder(
         itemCount: 5,
